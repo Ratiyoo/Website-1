@@ -30,7 +30,7 @@
   gap: 200px;
 }
 .buttons:hover{
-  cursor: grab;
+  cursor: pointer;
 }
 .dropdown{
   padding: 1% 1% 1% 1%;
