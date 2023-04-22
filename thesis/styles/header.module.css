@@ -7,7 +7,6 @@
 }
 .title {
   align-self: center;
-  width: 100px;
   margin-top: 2.5%;
   margin-bottom: 2.5%;
   font-size: x-large;
@@ -21,7 +20,7 @@
   flex-direction: row;
   gap: 100px;
 }
-.buttons{
+.button_wrapper{
   width: 100%;
   justify-content: center;
   margin-bottom: 10%;
@@ -29,22 +28,17 @@
   flex-direction: row;
   gap: 200px;
 }
-.buttons:hover{
-  cursor: pointer;
-}
-.dropdown{
+.buttons{
   padding: 1% 1% 1% 1%;
   border: 8px;
   border-radius: 50px;
   border-color: white;
   border-style: ridge;
 }
-.dropdown_content{
-  display: none;
+.buttons:hover{
+  cursor: pointer;
 }
-.dropdown:hover .dropdown-content {
-  display: block;
-}
+
 
 .picture{
   width: auto;
@@ -53,4 +47,15 @@
 
 .bio{
   margin-top: 25px;
+}
+.contact_wrapper{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.contacts{
+
+}
+.contacts:hover{
+  cursor: pointer;
 }
