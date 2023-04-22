@@ -38,8 +38,6 @@
 .buttons:hover{
   cursor: pointer;
 }
-
-
 .picture{
   width: auto;
   height: 400px;
@@ -49,12 +47,17 @@
   margin-top: 25px;
 }
 .contact_wrapper{
+  height: 200px;
   display: flex;
   flex-direction: row;
   gap: 20px;
 }
 .contacts{
-
+  height: 50px;
+  border: 6px;
+  border-radius: 50px;
+  border-color: white;
+  border-style: ridge;
 }
 .contacts:hover{
   cursor: pointer;

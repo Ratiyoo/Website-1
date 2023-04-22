@@ -8,7 +8,7 @@ export default function Header(props: any) {
       
       <div className={styles.header_wrapper}>
 
-        <div className={styles.title}>Title Text</div>
+        <div className={styles.title}>My Portfolio</div>
 
         <div className={styles.autobiogrophy}>
           <div ><Image src={Rati} alt="IDK"  className={styles.picture}/></div>
@@ -21,8 +21,10 @@ export default function Header(props: any) {
           <a className={styles.buttons}>Personal Life</a>
         </div>
         <div className={styles.contact_wrapper}>
+          <div>Contact me on:</div>
           <a href="https://www.linkedin.com/in/rati-kereselidze-729969250/" className={styles.contacts}> LinkedIn</a>
           <a href= "https://github.com/Ratiyoo" className={styles.contacts}> Github</a>
+          <div> or email me at: rati.kereselidze20@gmail.com</div>
         </div>
       </div>
     </>
