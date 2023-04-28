@@ -22,9 +22,7 @@ export default function Header(props: any) {
             <option>My Experience</option>
             <option>info</option>
             <option>info</option>
-            <option>
-              <a>Click to see more</a>
-            </option>
+            <option>info</option>
           </select>
 
           <select className={styles.buttons}>
