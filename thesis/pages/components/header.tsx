@@ -14,7 +14,7 @@ export default function Header(props: any) {
           <div>
             <Image src={Rati} alt="MyImage" className={styles.picture} />
           </div>
-          <div className={styles.bio}>bio</div>
+          <div className={styles.bio}>"Insert a paragraph or two of autobiogrophy here"</div>
         </div>
 
         <div className={styles.button_wrapper}>
@@ -61,8 +61,9 @@ export default function Header(props: any) {
           </a>
           <div className={styles.contact_text}>
             {" "}
-            or email me at: rati.kereselidze20@gmail.com
+            or send me an email using the websites form funtion:
           </div>
+          <div className={styles.contact_text}> "Insert Redirect Button"</div>
         </div>
       </div>
     </>
